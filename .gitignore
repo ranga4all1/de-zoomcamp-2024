@@ -206,3 +206,6 @@ llm/
 01-basics-n-setup/2_docker_sql/yellow_tripdata_2021-01.csv
 01-basics-n-setup/2_docker_sql/data_pgadmin/pgadmin4.db
 homework-de-zoomcamp-2024/01-basics_n_setup/data_pgadmin/pgadmin4.db
+01-basics-n-setup/1_terraform_gcp/outputs.md
+01-basics-n-setup/1_terraform_gcp/terraform/.terraform.lock.hcl
+01-basics-n-setup/1_terraform_gcp/terraform_with_variables/.terraform.lock.hcl
