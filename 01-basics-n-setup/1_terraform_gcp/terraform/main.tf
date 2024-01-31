@@ -1,3 +1,4 @@
+# Replace variables in this file with your data - e. g. PROJECT_ID
 
 terraform {
   required_providers {
@@ -11,17 +12,17 @@ terraform {
 provider "google" {
   # Credentials only needs to be set if you do not have the GOOGLE_APPLICATION_CREDENTIALS set
   # credentials =
-  project = "woven-edge-412500"
-  region  = "us-west1"
+  project = "PROJECT_ID"
+  region  = "REGION"
 }
 
 resource "google_storage_bucket" "data-lake-bucket" {
-  name          = "woven-edge-412500-terra-bucket"
-  location      = "US"
+  name          = "GCS_BUCKET_NAME"
+  location      = "LOCATION"
   force_destroy = true
 
   # Optional, but recommended settings:
-  storage_class               = "STANDARD"
+  storage_class               = "GCS_STORAGE_CLASS"
   uniform_bucket_level_access = true
 
   versioning {
@@ -48,8 +49,8 @@ resource "google_storage_bucket" "data-lake-bucket" {
 }
 
 resource "google_bigquery_dataset" "dataset" {
-  dataset_id = "yellow_taxi_trips"
-  project    = "woven-edge-412500"
-  location   = "US"
+  dataset_id = "BQ_DATASET_NAME"
+  project    = "PROJECT_ID"
+  location   = "LOCATION"
   delete_contents_on_destroy = true
 }
