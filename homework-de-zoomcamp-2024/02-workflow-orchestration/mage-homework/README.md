@@ -27,7 +27,7 @@ docker compose build
 Finally, start the Docker container:
 
 ```bash
-docker compose up
+docker compose up -d
 ```
 
 Now, navigate to http://localhost:6789 in your browser to get started. 
