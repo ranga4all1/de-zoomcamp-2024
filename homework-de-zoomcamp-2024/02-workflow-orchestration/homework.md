@@ -65,6 +65,8 @@ Which of the following creates a new column `lpep_pickup_date` by converting `lp
 * `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`
 * `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt().date()`
 
+**Answer: `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`**
+
 ## Question 4. Data Transformation
 
 What are the existing values of `VendorID` in the dataset?
@@ -74,6 +76,8 @@ What are the existing values of `VendorID` in the dataset?
 * 1, 2, 3, 4
 * 1
 
+**Answer: 1 or 2**
+
 ## Question 5. Data Transformation
 
 How many columns need to be renamed to snake case?
@@ -82,6 +86,8 @@ How many columns need to be renamed to snake case?
 * 6
 * 2
 * 4
+
+**Answer: 4**
 
 ## Question 6. Data Exporting
 
