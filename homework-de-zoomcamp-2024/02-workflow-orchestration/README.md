@@ -1,7 +1,7 @@
 
 # Data Engineering Zoomcamp - Week 2 Homework: 02-workflow-orchestration
 
-We will use tool called Mage - an open-source, hybrid framework for transforming and integrating data - to Build ETL pipelines.
+We will use a tool called Mage - an open-source, hybrid framework for transforming and integrating data - to Build ETL pipelines.
 
 ## Let's get started
 ```
@@ -46,7 +46,13 @@ We just initialized a new mage repository. It will be present in your project un
 2. `green_taxi_etl_gcs_partitioned` :  For data ingestion to gcs partioned by lpep_pickup_date
 ![](images/pipeline-gcs-partitioned.png)
 
+3. Schedule `green_taxi_etl_gcs_partitioned` to run daily at 5:00 AM UTC
+![](images/schedule.png)
+
 ### Data in gcs bucket
 
 - partioned by lpep_pickup_date
 ![](images/data-gcs-bucket.png)
+
+### Optional - Combine above 2 pipelines to create a single pipeline and schedule it to run daily at 5:00 AM UTC
+- Run 2 exporter blocks parallely at the end of the pipeline

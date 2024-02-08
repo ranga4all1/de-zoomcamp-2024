@@ -99,12 +99,3 @@ Once exported, how many partitions (folders) are present in Google Cloud?
 * 108
 
 **Answer: 96**
-
-## Submitting the solutions
-
-* Form for submitting: https://courses.datatalks.club/de-zoomcamp-2024/homework/hw2
-* Check the link above to see the due date
-  
-## Solution
-
-Will be added after the due date
