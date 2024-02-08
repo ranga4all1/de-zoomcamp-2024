@@ -38,12 +38,12 @@ We just initialized a new mage repository. It will be present in your project un
 
 ## Create Pipelines aka DAGs
 
-**Note**: Code for each block is available in respective load, transform and export .py files
+**Note**: Code for each block is available in respective load, transform and export `.py` files
 
 1. `green_taxi_etl` : For data ingestion to local postgress db
 ![](images/pipeline-postgress-local.png)
 
-2. `green_taxi_etl_gcs_partitioned` :  For data ingestion to gcs partioned by lpep_pickup_date
+2. `green_taxi_etl_gcs_partitioned` :  For data ingestion to gcs partioned by `lpep_pickup_date`
 ![](images/pipeline-gcs-partitioned.png)
 
 3. Schedule `green_taxi_etl_gcs_partitioned` to run daily at 5:00 AM UTC
@@ -51,7 +51,7 @@ We just initialized a new mage repository. It will be present in your project un
 
 ### Data in gcs bucket
 
-- partioned by lpep_pickup_date
+- partioned by `lpep_pickup_date`
 ![](images/data-gcs-bucket.png)
 
 ### Optional - Combine above 2 pipelines to create a single pipeline and schedule it to run daily at 5:00 AM UTC
