@@ -238,3 +238,6 @@ homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/
 homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/data_exporters/export_titanic_clean.py
 homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/data_exporters/__init__.py
 homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/__init__.py
+homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/data_loaders/hack_load_taxi_data.py
+homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/pipelines/hack_taxi_etl_gcs/__init__.py
+homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/pipelines/hack_taxi_etl_gcs/metadata.yaml
