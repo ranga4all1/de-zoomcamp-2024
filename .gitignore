@@ -241,3 +241,6 @@ homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/
 homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/data_loaders/hack_load_taxi_data.py
 homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/pipelines/hack_taxi_etl_gcs/__init__.py
 homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/pipelines/hack_taxi_etl_gcs/metadata.yaml
+03-data-warehouse/google-cloud-sdk
+03-data-warehouse/google-cloud-cli-463.0.0-linux-x86_64.tar.gz
+03-data-warehouse/serving_dir
