@@ -244,3 +244,9 @@ homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/
 03-data-warehouse/google-cloud-sdk
 03-data-warehouse/google-cloud-cli-463.0.0-linux-x86_64.tar.gz
 03-data-warehouse/serving_dir
+05-batch/notebooks
+05-batch/code/zones
+05-batch/code/*.csv
+05-batch/code/*.gz
+05-batch/code/data
+05-batch/code/fhvhv
