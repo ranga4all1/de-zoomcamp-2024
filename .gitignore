@@ -251,3 +251,7 @@ homework-de-zoomcamp-2024/02-workflow-orchestration/mage-homework/mage-homework/
 05-batch/code/data
 05-batch/code/fhvhv
 05-batch/code/tmp
+homework-de-zoomcamp-2024/05-batch/*.csv
+homework-de-zoomcamp-2024/05-batch/*.gz
+homework-de-zoomcamp-2024/05-batch/fhvhv
+homework-de-zoomcamp-2024/05-batch/zones
