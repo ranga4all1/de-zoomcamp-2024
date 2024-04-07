@@ -255,3 +255,6 @@ homework-de-zoomcamp-2024/05-batch/*.csv
 homework-de-zoomcamp-2024/05-batch/*.gz
 homework-de-zoomcamp-2024/05-batch/fhvhv
 homework-de-zoomcamp-2024/05-batch/zones
+homework-de-zoomcamp-2024/06-streaming/taxi_zone_lookup.csv
+homework-de-zoomcamp-2024/06-streaming/fhv_tripdata_2019-10.csv
+homework-de-zoomcamp-2024/06-streaming/green_tripdata_2019-10.csv.gz
