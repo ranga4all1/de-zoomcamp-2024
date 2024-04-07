@@ -15,3 +15,8 @@ TOPIC       STATUS
 test-topic  OK
 
 docker exec redpanda-1 rpk topic consume green-trips
+
+
+docker exec -it redpanda-1 /bin/bash
+cd user/bin
+./rpk topic list
